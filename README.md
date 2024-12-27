@@ -7,18 +7,18 @@ Este repositório contém o site em homenagem à Mari Loreto, apresentando sua t
 A arquitetura básica do site é:
 
 MARI_LORETO/ 
-  ┣ images/ 
-  ┣ biografia.html 
-  ┣ foto.html 
-  ┣ fotoA.webp 
-  ┣ fotoB.jpg 
-  ┣ fotoC.webp 
-  ┣ galeria.html 
-  ┣ index.html 
-  ┣ paginamodelo.html 
-  ┣ script.js 
-  ┣ secao.html 
-  ┗ style.css
+  - images/ 
+  - biografia.html 
+  - foto.html 
+  - fotoA.webp 
+  - fotoB.jpg 
+  - fotoC.webp 
+  - galeria.html 
+  - index.html 
+  - paginamodelo.html 
+  - script.js 
+  - secao.html 
+  - style.css
 
 
 ### Descrição de cada arquivo/parte
