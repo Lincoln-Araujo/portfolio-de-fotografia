@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mari Loreto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header class="content-center">
+    
+    <div class="header-site">
+      <a href="index.html" class="logo-header">
+        <img src="images/logo_color.svg" alt="website logo" width="162" height="82">
+      </a>
+
+      <nav>
+        <a href="galeria.html" class="a-nav-site">Galeria</a>
+        <p class="divisor">|</p>
+        <a href="biografia.html" class="a-nav-site">Biografia</a>
+      </nav>
+
+      <div class="menu-btn" id="menu-btn-mob" title="Menu">
+        <div class="menu-btn__burger"></div>
+      </div>
+    </div>
+    
+    <div class="gradient-line"></div>
+
+    <div id="nav-menu-mobile" class="nav-menu-mobile">
+      <nav>
+        <span>
+          <div class="line"></div>
+          <a href="index.html" class="button-mobile">
+            <p>Início</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+              <path d="M0 8.91043L3.82083 5.0896L0 1.26877L1.17917 0.0895998L6.17917 5.0896L1.17917 10.0896L0 8.91043Z" fill="white"/>
+            </svg>
+          </a>
+          <a href="galeria.html" class="button-mobile">
+            <p>Galeria</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+              <path d="M0 8.91043L3.82083 5.0896L0 1.26877L1.17917 0.0895998L6.17917 5.0896L1.17917 10.0896L0 8.91043Z" fill="white"/>
+            </svg>
+          </a>
+          <a href="biografia.html" class="button-mobile">
+            <p>Biografia</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+              <path d="M0 8.91043L3.82083 5.0896L0 1.26877L1.17917 0.0895998L6.17917 5.0896L1.17917 10.0896L0 8.91043Z" fill="white"/>
+            </svg>
+          </a>
+        </span>
+        <span class="leaf-container">
+          <span class="leaf-before"></span>
+          <svg class="leaf" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M20 10.9999C20 6.09991 16.501 1.89991 11.68 1.01691L11.5 0.98291L11.32 1.01591C6.499 1.89991 3 6.09991 3 10.9999C3 15.6169 6.108 19.6099 10.5 20.7949V21.9999C10.5 22.5529 10.948 22.9999 11.5 22.9999C12.052 22.9999 12.5 22.5529 12.5 21.9999V20.7949C16.892 19.6099 20 15.6169 20 10.9999ZM12.5 18.6999V15.7069L16.854 11.3529C17.049 11.1579 17.049 10.8409 16.854 10.6459C16.659 10.4509 16.342 10.4509 16.147 10.6459L12.5 14.2929V10.7069L14.854 8.35291C15.049 8.15791 15.049 7.84091 14.854 7.64591C14.659 7.45091 14.342 7.45091 14.147 7.64591L12.5 9.29291V5.99991C12.5 5.44691 12.052 4.99991 11.5 4.99991C10.948 4.99991 10.5 5.44691 10.5 5.99991V9.29291L8.854 7.64591C8.659 7.45091 8.342 7.45091 8.147 7.64591C7.952 7.84091 7.952 8.15791 8.147 8.35291L10.501 10.7069V14.2929L6.855 10.6469C6.66 10.4519 6.343 10.4519 6.148 10.6469C5.953 10.8419 5.953 11.1589 6.148 11.3539L10.502 15.7079V18.6999C7.253 17.5839 5 14.5209 5 10.9999C5 7.12591 7.723 3.79891 11.5 3.01891C15.277 3.79891 18 7.12591 18 10.9999C18 14.5209 15.747 17.5839 12.5 18.6999Z" fill="#D8C8C0"/>
+          </svg>
+          <span class="leaf-after"></span>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-site">
+
+    <div class="galeria container-site content-center">
+
+      <h1 class="h1-site title-font">Galeria</h1>
+
+      <h2 class="h2-site">Explore a coleção de obras</h2>
+      
+      <nav class="menu-temas">
+        <!-- Versão Desktop: lista horizontal -->
+        <ul class="temas-desktop">
+          <li >
+            <a href="galeria.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path d="M15.8333 8.70832C15.8333 4.82916 13.0633 1.50416 9.24667 0.805115L9.10417 0.778198L8.96167 0.804323C5.14504 1.50416 2.375 4.82916 2.375 8.70832C2.375 12.3634 4.8355 15.5246 8.3125 16.4627V17.4167C8.3125 17.8544 8.66717 18.2083 9.10417 18.2083C9.54117 18.2083 9.89583 17.8544 9.89583 17.4167V16.4627C13.3728 15.5246 15.8333 12.3634 15.8333 8.70832ZM9.89583 14.8042V12.4347L13.3427 8.98778C13.4971 8.83341 13.4971 8.58245 13.3427 8.42807C13.1884 8.2737 12.9374 8.2737 12.783 8.42807L9.89583 11.3153V8.47636L11.7594 6.61278C11.9138 6.45841 11.9138 6.20745 11.7594 6.05307C11.605 5.8987 11.3541 5.8987 11.1997 6.05307L9.89583 7.35695V4.74999C9.89583 4.3122 9.54117 3.95832 9.10417 3.95832C8.66717 3.95832 8.3125 4.3122 8.3125 4.74999V7.35695L7.00942 6.05307C6.85504 5.8987 6.60408 5.8987 6.44971 6.05307C6.29533 6.20745 6.29533 6.45841 6.44971 6.61278L8.31329 8.47636V11.3153L5.42687 8.42886C5.2725 8.27449 5.02154 8.27449 4.86717 8.42886C4.71279 8.58324 4.71279 8.8342 4.86717 8.98857L8.31408 12.4355V14.8042C5.74196 13.9207 3.95833 11.4958 3.95833 8.70832C3.95833 5.64141 6.11404 3.00753 9.10417 2.39003C12.0943 3.00753 14.25 5.64141 14.25 8.70832C14.25 11.4958 12.4664 13.9207 9.89583 14.8042Z" fill="#B87777"/>
+              </svg>
+              Todas
+            </a>
+          </li>
+          <li class="ativo">
+            <a href="secao.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path d="M15.8333 8.70832C15.8333 4.82916 13.0633 1.50416 9.24667 0.805115L9.10417 0.778198L8.96167 0.804323C5.14504 1.50416 2.375 4.82916 2.375 8.70832C2.375 12.3634 4.8355 15.5246 8.3125 16.4627V17.4167C8.3125 17.8544 8.66717 18.2083 9.10417 18.2083C9.54117 18.2083 9.89583 17.8544 9.89583 17.4167V16.4627C13.3728 15.5246 15.8333 12.3634 15.8333 8.70832ZM9.89583 14.8042V12.4347L13.3427 8.98778C13.4971 8.83341 13.4971 8.58245 13.3427 8.42807C13.1884 8.2737 12.9374 8.2737 12.783 8.42807L9.89583 11.3153V8.47636L11.7594 6.61278C11.9138 6.45841 11.9138 6.20745 11.7594 6.05307C11.605 5.8987 11.3541 5.8987 11.1997 6.05307L9.89583 7.35695V4.74999C9.89583 4.3122 9.54117 3.95832 9.10417 3.95832C8.66717 3.95832 8.3125 4.3122 8.3125 4.74999V7.35695L7.00942 6.05307C6.85504 5.8987 6.60408 5.8987 6.44971 6.05307C6.29533 6.20745 6.29533 6.45841 6.44971 6.61278L8.31329 8.47636V11.3153L5.42687 8.42886C5.2725 8.27449 5.02154 8.27449 4.86717 8.42886C4.71279 8.58324 4.71279 8.8342 4.86717 8.98857L8.31408 12.4355V14.8042C5.74196 13.9207 3.95833 11.4958 3.95833 8.70832C3.95833 5.64141 6.11404 3.00753 9.10417 2.39003C12.0943 3.00753 14.25 5.64141 14.25 8.70832C14.25 11.4958 12.4664 13.9207 9.89583 14.8042Z" fill="#B87777"/>
+              </svg>
+              Tema 1
+            </a>
+          </li>
+          <li>
+            <a href="secao.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path d="M15.8333 8.70832C15.8333 4.82916 13.0633 1.50416 9.24667 0.805115L9.10417 0.778198L8.96167 0.804323C5.14504 1.50416 2.375 4.82916 2.375 8.70832C2.375 12.3634 4.8355 15.5246 8.3125 16.4627V17.4167C8.3125 17.8544 8.66717 18.2083 9.10417 18.2083C9.54117 18.2083 9.89583 17.8544 9.89583 17.4167V16.4627C13.3728 15.5246 15.8333 12.3634 15.8333 8.70832ZM9.89583 14.8042V12.4347L13.3427 8.98778C13.4971 8.83341 13.4971 8.58245 13.3427 8.42807C13.1884 8.2737 12.9374 8.2737 12.783 8.42807L9.89583 11.3153V8.47636L11.7594 6.61278C11.9138 6.45841 11.9138 6.20745 11.7594 6.05307C11.605 5.8987 11.3541 5.8987 11.1997 6.05307L9.89583 7.35695V4.74999C9.89583 4.3122 9.54117 3.95832 9.10417 3.95832C8.66717 3.95832 8.3125 4.3122 8.3125 4.74999V7.35695L7.00942 6.05307C6.85504 5.8987 6.60408 5.8987 6.44971 6.05307C6.29533 6.20745 6.29533 6.45841 6.44971 6.61278L8.31329 8.47636V11.3153L5.42687 8.42886C5.2725 8.27449 5.02154 8.27449 4.86717 8.42886C4.71279 8.58324 4.71279 8.8342 4.86717 8.98857L8.31408 12.4355V14.8042C5.74196 13.9207 3.95833 11.4958 3.95833 8.70832C3.95833 5.64141 6.11404 3.00753 9.10417 2.39003C12.0943 3.00753 14.25 5.64141 14.25 8.70832C14.25 11.4958 12.4664 13.9207 9.89583 14.8042Z" fill="#B87777"/>
+              </svg>
+              Tema 2
+            </a>
+          </li>
+          <li>
+            <a href="secao.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path d="M15.8333 8.70832C15.8333 4.82916 13.0633 1.50416 9.24667 0.805115L9.10417 0.778198L8.96167 0.804323C5.14504 1.50416 2.375 4.82916 2.375 8.70832C2.375 12.3634 4.8355 15.5246 8.3125 16.4627V17.4167C8.3125 17.8544 8.66717 18.2083 9.10417 18.2083C9.54117 18.2083 9.89583 17.8544 9.89583 17.4167V16.4627C13.3728 15.5246 15.8333 12.3634 15.8333 8.70832ZM9.89583 14.8042V12.4347L13.3427 8.98778C13.4971 8.83341 13.4971 8.58245 13.3427 8.42807C13.1884 8.2737 12.9374 8.2737 12.783 8.42807L9.89583 11.3153V8.47636L11.7594 6.61278C11.9138 6.45841 11.9138 6.20745 11.7594 6.05307C11.605 5.8987 11.3541 5.8987 11.1997 6.05307L9.89583 7.35695V4.74999C9.89583 4.3122 9.54117 3.95832 9.10417 3.95832C8.66717 3.95832 8.3125 4.3122 8.3125 4.74999V7.35695L7.00942 6.05307C6.85504 5.8987 6.60408 5.8987 6.44971 6.05307C6.29533 6.20745 6.29533 6.45841 6.44971 6.61278L8.31329 8.47636V11.3153L5.42687 8.42886C5.2725 8.27449 5.02154 8.27449 4.86717 8.42886C4.71279 8.58324 4.71279 8.8342 4.86717 8.98857L8.31408 12.4355V14.8042C5.74196 13.9207 3.95833 11.4958 3.95833 8.70832C3.95833 5.64141 6.11404 3.00753 9.10417 2.39003C12.0943 3.00753 14.25 5.64141 14.25 8.70832C14.25 11.4958 12.4664 13.9207 9.89583 14.8042Z" fill="#B87777"/>
+              </svg>
+              Tema 3
+            </a>
+          </li>
+          <li>
+            <a href="secao.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                <path d="M15.8333 8.70832C15.8333 4.82916 13.0633 1.50416 9.24667 0.805115L9.10417 0.778198L8.96167 0.804323C5.14504 1.50416 2.375 4.82916 2.375 8.70832C2.375 12.3634 4.8355 15.5246 8.3125 16.4627V17.4167C8.3125 17.8544 8.66717 18.2083 9.10417 18.2083C9.54117 18.2083 9.89583 17.8544 9.89583 17.4167V16.4627C13.3728 15.5246 15.8333 12.3634 15.8333 8.70832ZM9.89583 14.8042V12.4347L13.3427 8.98778C13.4971 8.83341 13.4971 8.58245 13.3427 8.42807C13.1884 8.2737 12.9374 8.2737 12.783 8.42807L9.89583 11.3153V8.47636L11.7594 6.61278C11.9138 6.45841 11.9138 6.20745 11.7594 6.05307C11.605 5.8987 11.3541 5.8987 11.1997 6.05307L9.89583 7.35695V4.74999C9.89583 4.3122 9.54117 3.95832 9.10417 3.95832C8.66717 3.95832 8.3125 4.3122 8.3125 4.74999V7.35695L7.00942 6.05307C6.85504 5.8987 6.60408 5.8987 6.44971 6.05307C6.29533 6.20745 6.29533 6.45841 6.44971 6.61278L8.31329 8.47636V11.3153L5.42687 8.42886C5.2725 8.27449 5.02154 8.27449 4.86717 8.42886C4.71279 8.58324 4.71279 8.8342 4.86717 8.98857L8.31408 12.4355V14.8042C5.74196 13.9207 3.95833 11.4958 3.95833 8.70832C3.95833 5.64141 6.11404 3.00753 9.10417 2.39003C12.0943 3.00753 14.25 5.64141 14.25 8.70832C14.25 11.4958 12.4664 13.9207 9.89583 14.8042Z" fill="#B87777"/>
+              </svg>
+              Tema 4
+            </a>
+          </li>
+        </ul>
+  
+        <!-- Versão Mobile: dropdown -->
+        <div class="temas-mobile">
+          <button class="dropdown-button" aria-haspopup="true" aria-expanded="false">
+            <span class="dropdown-label">Tema 1</span>
+            <span class="icon-down">
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                <path d="M1.17917 0L5 3.82083L8.82083 0L10 1.17917L5 6.17917L0 1.17917L1.17917 0Z" fill="#443C3D"/>
+              </svg>
+            </span>
+          </button>
+          <ul class="dropdown-list" aria-label="Lista de Temas">
+            <li data-value="Todas"><a href="secao.html">Todas</a></li>
+            <li data-value="Tema 2"><a href="secao.html">Tema 1</a></li>
+            <li data-value="Tema 3"><a href="secao.html">Tema 2</a></li>
+            <li data-value="Tema 4"><a href="secao.html">Tema 3</a></li>
+            <li data-value="Tema 5"><a href="secao.html">Tema 4</a></li>
+          </ul>
+        </div>
+        <div class="gradient-line"></div>
+      </nav>
+
+      <section class="foto-principal">
+        <img 
+          src="https://images.unsplash.com/photo-1733169312713-fd0c6963487a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="Foto em destaque" 
+          class="foto-em-destaque"
+          width="1170"
+          height="775">
+      </section>
+
+      <section class="carousel-container">
+        <button class="carousel-prev" aria-label="Anterior">
+          <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+            <path d="M6.1792 8.91043L2.35837 5.0896L6.1792 1.26877L5.00003 0.0895998L3.22892e-05 5.0896L5.00003 10.0896L6.1792 8.91043Z" fill="white"/>
+          </svg>
+        </button>
+        <div class="carousel-wrapper">
+          <div class="carousel">
+            <!-- fotos da mesma seção -->
+            <div class="carousel-item">
+              <img 
+                src="https://images.unsplash.com/photo-1733169312713-fd0c6963487a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://images.unsplash.com/photo-1733169312713-fd0c6963487a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1734413479581-b2cb68f87b03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1734413479581-b2cb68f87b03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1669039866237-3f56884e89d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1669039866237-3f56884e89d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1669039867125-d9ea8b9fc05f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1669039867125-d9ea8b9fc05f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1734413306668-0702895d36e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1734413306668-0702895d36e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1734413479584-e07b1633fd6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1734413479584-e07b1633fd6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <div class="carousel-item">
+              <img 
+                src="https://plus.unsplash.com/premium_photo-1734413233885-bf8d4c87448a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Foto 1" 
+                data-full="https://plus.unsplash.com/premium_photo-1734413233885-bf8d4c87448a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                width="192"
+                height="128">
+            </div>
+            <!--restante das fotos-->
+          </div>
+        </div>
+        <button class="carousel-next" aria-label="Próximo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+            <path d="M0 8.91043L3.82083 5.0896L0 1.26877L1.17917 0.0895996L6.17917 5.0896L1.17917 10.0896L0 8.91043Z" fill="white"/>
+          </svg>
+        </button>
+      </section>
+
+      <div class="gradient-line"></div>
+
+    </div>    
+
+    <div class="banner-biografia content-center">
+
+      <div class="photo-shadow">
+        <img class="photo-shadow" src="images/ml-pb.jpg" alt="foto de Mari Luci" width="170" height="170">
+      </div>
+
+      <div class="title-font h1-site">Mari Loreto</div>
+
+      <a href="biografia.html" class="button-cta">
+        Leia a biografia
+        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+          <path d="M0 8.91043L3.82083 5.0896L0 1.26877L1.17917 0.0895996L6.17917 5.0896L1.17917 10.0896L0 8.91043Z" fill="#443C3D"/>
+        </svg>
+      </a>
+
+    </div>
+
+  </main>
+  
+  <footer class="footer-site">
+
+    <div class="gradient-line"></div>
+
+    <div class="content-center">
+
+      <a href="index.html" class="logo-footer">
+        <img src="images/logo_dark.svg" alt="logo site" width="93" height="48">
+      </a>
+
+      <nav>
+        <a href="index.html" class="a-nav-footer">Início</a>
+        <a href="galeria.html" class="a-nav-footer">Galeria</a>
+        <a href="biografia.html" class="a-nav-footer">Biografia</a>
+      </nav>
+
+      <div class="copyright">
+        <p>© 2024 - [Nome do Site ou Instituição].</p>
+        <p>Todos os direitos reservados.</p>
+        <p>Desenvolvido com carinho em homenagem a Mari Loreto.</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+  </body>
+</html>
